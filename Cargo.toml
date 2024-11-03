@@ -1,0 +1,18 @@
+[package]
+name = "book_scraper"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = {version = "0.11", features = ["blocking"]} 
+scraper = "0.13.0"
+regex = "1.11.0"
+pinyin = "0.10"
+egui="0.28.1"
+eframe="0.28.1"
+env_logger = "0.11.5"
+fnck_sql = "0.0.3"
+itertools = "0.12.1"
+unicode-width = "0.1.14"
+chrono = "0.4.38"
+lazy_static = "1.5.0"
